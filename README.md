@@ -7,6 +7,11 @@ This can be done via `pip install`.
 
 Normally these would be contained in a requirements file to which you could just pip install all requirements from, but I haven't gotten to that here.
 
+Once that is complete you need to do the following to make sure spacey can function:
+```bash
+python -m spacy download en_core_web_sm
+```
+
 Then in your terminal, assuming you're using Unix/Linux, you want to:
 ```bash
 export FLASK_APP=give_me_giphy.py
